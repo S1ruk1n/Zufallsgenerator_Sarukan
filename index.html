@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/javascript" href="/script/script.js">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h2>Zufallsgenrator</h2>
+		
+		<p>Versuche, die Zahl zwischen 0 und 100 zu erraten!</p>
+		
+		<div style="height: 120px">
+			<label>Dein Tipp:</label>
+			<input type="number" id="inputGuess" style="width:100px"/>
+            <br>
+            <br>
+			<button onclick="checkNumber()">Überprüfen</button>
+            <br>
+            <br>
+            <button onclick="newGame()">Neu beginnen</button>
+
+			
+			<p id="outputResult"></p>
+			<p id="outputCount"></p>
+        
+		</div>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <table border="2px solid black">
+                <thead>
+                <tr>
+                    <td>Spielername</td>
+                    <td>anzahl</td>
+                </tr>
+                </table>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="/script/script.js"></script>
+</body>
+</html>
